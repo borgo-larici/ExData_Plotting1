@@ -23,7 +23,7 @@ png(
         height = 480 # it here for clarity
 )
 
-# Draw the histogram into the "png" graphics device.
+# Draw the plot into the "png" graphics device.
 plot(
         epc$epcDate,                   # X-axis data
         epc$Sub_metering_1,            # Y-axis data

@@ -23,7 +23,7 @@ png(
         height = 480 # it here for clarity
 )
 
-# Draw the histogram into the "png" graphics device.
+# Draw the plot into the "png" graphics device.
 with(
         epc, # use data from "epc"
         plot(
